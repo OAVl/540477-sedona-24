@@ -22,7 +22,59 @@
   <main class="container">
     <h1 class="visually-hidden">Гостиницы</h1>
 
-    <!--Здесь будет форма-->
+    <form class="form-search" action="https://echo.htmlacademy.ru" method="get">
+      <fieldset>
+        <legend>Инфраструктура:</legend>
+        <ul>
+          <li class="form-filter">
+            <label class="form-pool">
+              <input class="filter-option" type="checkbox" name="pool" checked>
+              Бассейн
+            </label>
+          </li>
+          <li class="form-filter">
+            <label class="form-parking">
+              <input class="filter-option" type="checkbox" name="parking">
+              Парковка
+            </label>
+          </li>
+          <li class="form-filter">
+            <label class="form-wi-fi">
+              <input class="filter-option" type="checkbox" name="wi-fi">
+              Wi-fi
+            </label>
+          </li>
+        </ul>
+      </fieldset>
+      <fieldset>
+        <legend>Тип жилья:</legend>
+        <ul>
+          <li class="form-filter">
+            <label class="form-hotel">
+              <input class="filter-option" type="checkbox" name="hotel" checked>
+              Гостиница
+            </label>
+          </li>
+          <li class="form-filter">
+            <label class="form-motel">
+              <input class="filter-option" type="checkbox" name="motel" checked>
+              Мотель
+            </label>
+          </li>
+          <li class="form-filter">
+            <label class="form-apartments">
+              <input class="filter-option" type="checkbox" name="apartments" checked>
+              Апартаменты
+            </label>
+          </li>
+        </ul>
+      </fieldset>
+      <fieldset>
+        <legend>Стоимость в сутки(р):</legend>
+
+        <button class="form-button" type="submit">Показать</button>
+      </fieldset>
+    </form>
 
     <section class="sorting">
       <h2 class="sorting-search">Найдено:3</h2>
