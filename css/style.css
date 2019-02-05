@@ -1,0 +1,182 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 26px;
+  color: black;
+  text-transform: uppercase;
+
+  background-color: #f2f2f2;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-navigation {
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 700;
+  color: black;
+
+  background-color: #ffffff;
+}
+
+.site-navigation {
+  list-style: none;
+}
+
+.site-navigation a {
+  color: black;
+}
+
+.site-navigation a:hover {
+  color: #81b3d2;
+}
+
+.site-navigation a:active {
+  color: #b2b2b2;
+}
+
+.banner,
+.subtitle {
+  text-align: center;
+}
+
+.banner {
+  background-image: url("../img/background-photo.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.subtitle h2 {
+  font-size: 21px;
+  line-height: 26px;
+}
+
+.search {
+  background-color: white;
+  text-align: center;
+}
+
+.search-item {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.search-button {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+  color: white;
+
+  background-color: #766357;
+}
+
+.search-button:hover {
+  background-color: #604e43;
+}
+
+.search-button:active {
+  color: #827872;
+  background-color: #503e33;
+}
+
+.form-search,
+.form-search input[value] {
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 700;
+  color: black;
+}
+
+.form-search input {
+  background-color: #f2f2f2;
+}
+
+.form-search input:hover {
+  background-color: #ebebeb;
+}
+
+.form-search input:active {
+  border: #e5e5e5;
+  background-color: #ffffff;
+}
+
+.form-calendar,
+.form-plus,
+.form-minus {
+  background-color: #a9a9a9;
+}
+
+.form-calendar:hover,
+.form-plus:hover,
+.form-minus:hover {
+  background-color: black;
+}
+
+.form-calendar:active,
+.form-plus:active,
+.form-minus:active {
+  background-color: #81b3d2;
+}
+
+.button {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+  color: white;
+
+  background-color: #81b3d2;
+}
+
+.button:hover {
+  background-color: #669ec0;
+}
+
+.button:active {
+  color: #88b6d1;
+  background-color: #5496bd;
+}
+
+.main-footer {
+  color: black;
+  background-color: white;
+}
+
+.footer-visit {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+  color: black;
+}
+
+.footer-social li {
+  list-style: none;
+}
+
+.footer-social a {
+  color: white;
+  background-color: #81b3d2;
+}
+
+.footer-social a:hover {
+  background-color: #669ec0;
+}
+
+.footer-social a:active {
+  color: #88b6d1;
+  background-color: #5496bd;
+}
+
+.footer-copyright {
+  font-size: 14px;
+  line-height: 26px;
+  color: black;
+}
+
+.footer-logo:hover {
+  background-image: url("../img/logo_name2.svg");
+}
