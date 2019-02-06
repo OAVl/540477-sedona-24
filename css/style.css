@@ -73,6 +73,7 @@ a {
   color: white;
 
   background-color: #766357;
+  border: none;
 }
 
 .search-button:hover {
@@ -90,6 +91,7 @@ a {
   line-height: 26px;
   font-weight: 700;
   color: black;
+  text-transform: uppercase;
 }
 
 .form-search input {
@@ -130,6 +132,7 @@ a {
   color: white;
 
   background-color: #81b3d2;
+  border: none;
 }
 
 .button:hover {
@@ -151,6 +154,10 @@ a {
   line-height: 26px;
   font-weight: 700;
   color: black;
+}
+
+.footer-social {
+  text-align: center;
 }
 
 .footer-social li {
@@ -177,6 +184,83 @@ a {
   color: black;
 }
 
-.footer-logo:hover {
-  background-image: url("../img/logo_name2.svg");
+.hotel-navigation a {
+  color: #766357;
+}
+
+.catalog-item {
+  background-color: white;
+}
+
+.catalog-list li {
+  list-style: none;
+}
+
+.catalog-item-title a {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+  color: black;
+}
+
+.catalog-item-title a:hover {
+  color: #bcd6e7;
+}
+
+.catalog-item-title a:active {
+  color: #b2b2b2;
+}
+
+.catalog-item-info span {
+  font-size: 14px;
+  line-height: 21px;
+  color: black;
+}
+
+.button-more {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 700;
+  color: white;
+  background-color: #81b3d2;
+}
+
+.button-more:hover {
+  background-color: #669ec0;
+}
+
+.button-more:active {
+  color: #88b6d1;
+  background-color: #5496bd;
+}
+
+.button-booking {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 700;
+  color: white;
+  background-color: #766357;
+}
+
+.button-booking:hover {
+  background-color: #604e43;
+}
+
+.button-booking:active {
+  color: #5e4e44;
+  background-color: #503e33;
+}
+
+.hotel-rating-stars span {
+  background-color: #81b3d2;
+  background-image: url("../img/star.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hotel-rating-text {
+  font-size: 14px;
+  line-height: 21px;
+  color: #b1b1b1;
+  background-color: #f2f2f2;
 }
