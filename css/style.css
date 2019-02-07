@@ -51,9 +51,33 @@ a {
   background-repeat: no-repeat;
 }
 
+.subtitle {
+  background-color: white;
+}
+
 .subtitle h2 {
   font-size: 21px;
   line-height: 26px;
+}
+
+.feature-text {
+  font: inherit;
+  color: white;
+  background-color: #81b3d2;
+}
+
+.offers {
+  font: inherit;
+  background-color: white;
+}
+
+.offers-list li {
+  list-style: none;
+}
+
+.reasons li {
+  font: inherit;
+  list-style: none;
 }
 
 .search {
@@ -182,6 +206,65 @@ a {
   font-size: 14px;
   line-height: 26px;
   color: black;
+}
+
+.form-search {
+  background-image: url("../img/filter-background.jpg");
+  background-repeat: no-repeat;
+}
+
+.form-search legend {
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 700;
+  color: white;
+}
+
+.form-search li,
+.form-cost input[value],
+.form-button {
+  list-style: none;
+  font-size: 14px;
+  line-height: 21px;
+  color: white;
+}
+
+.form-button:hover {
+  color: black;
+  background-color: white;
+}
+
+.sorting {
+  background-color: white;
+}
+
+.sorting-search {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+  color: black;
+}
+
+.sorting-title {
+  font-size: 12px;
+  line-height: 18px;
+  color: black;
+}
+
+.sorting-list li {
+  list-style: none;
+}
+
+.sorting-item a {
+  font-size: 12px;
+  line-height: 18px;
+  color: #cacaca;
+  text-decoration: underline;
+}
+
+.price a {
+  color: #81b3d2;
+  text-decoration: none;
 }
 
 .hotel-navigation a {
