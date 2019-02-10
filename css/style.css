@@ -28,15 +28,15 @@ a {
   list-style: none;
 }
 
-.site-navigation a {
+.main-navigation a {
   color: black;
 }
 
-.site-navigation a:hover {
+.main-navigation a:hover {
   color: #81b3d2;
 }
 
-.site-navigation a:active {
+.main-navigation a:active {
   color: #b2b2b2;
 }
 
@@ -61,13 +61,11 @@ a {
 }
 
 .feature-text {
-  font: inherit;
   color: white;
   background-color: #81b3d2;
 }
 
 .offers {
-  font: inherit;
   background-color: white;
 }
 
@@ -76,7 +74,6 @@ a {
 }
 
 .reasons li {
-  font: inherit;
   list-style: none;
 }
 
@@ -109,8 +106,8 @@ a {
   background-color: #503e33;
 }
 
-.form-search,
-.form-search input[value] {
+.form-booking,
+.form-booking input[value] {
   font-size: 14px;
   line-height: 26px;
   font-weight: 700;
@@ -118,15 +115,15 @@ a {
   text-transform: uppercase;
 }
 
-.form-search input {
+.form-booking input {
   background-color: #f2f2f2;
 }
 
-.form-search input:hover {
+.form-booking input:hover {
   background-color: #ebebeb;
 }
 
-.form-search input:active {
+.form-booking input:active {
   border: #e5e5e5;
   background-color: #ffffff;
 }
@@ -259,12 +256,12 @@ a {
   font-size: 12px;
   line-height: 18px;
   color: #cacaca;
-  text-decoration: underline;
+  border-bottom: 1px dashed #cacaca;
 }
 
 .price a {
   color: #81b3d2;
-  text-decoration: none;
+  border-bottom: none;
 }
 
 .hotel-navigation a {
@@ -346,4 +343,88 @@ a {
   line-height: 21px;
   color: #b1b1b1;
   background-color: #f2f2f2;
+}
+
+/*----*/
+
+html,
+body {
+  min-width: 1280px;
+  min-height: 2762px;
+}
+
+.site-navigation {
+  display: flex;
+  align-items: center;
+  height: 50px;
+}
+
+.site-navigation li {
+  width: 250px;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+.main-navigation .container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.banner {
+  width: 1200px;
+  padding-top: 75px;
+  padding-bottom: 80px;
+}
+
+
+.subtitle {
+  padding-top: 60px;
+  padding-bottom: 57px;
+}
+
+.search {
+  padding-top: 55px;
+}
+
+.item-data {
+  padding-bottom: 50px;
+}
+
+.main-footer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.catalog-list {
+  margin: 0;
+  padding: 0;
+}
+
+.catalog-item {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+.catalog-item-left {
+  display: flex;
+
+  justify-content: space-between;
+  width: 426px;
+  padding-left: 73px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.hotel-rating {
+  width: 114px;
+}
+
+.catalog-item-info {
+  width: 260px;
 }

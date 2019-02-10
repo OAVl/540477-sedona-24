@@ -11,13 +11,17 @@
     <div class="container">
       <header class="main-header">
         <nav class="main-navigation">
-          <img src="img/logo-sedona.svg" width="140" height="70" alt="Логотип города Седона">
-          <ul class="site-navigation">
-            <li><a href="information.html">Информация</a></li>
-            <li><a href="photo.html">Фото и видео</a></li>
-            <li><a href="map-state.html">Карта штата</a></li>
-            <li><a href="inner.html">Гостиницы</a></li>
-          </ul>
+          <div class="container">
+            <ul class="site-navigation">
+              <li><a href="information.html">Информация</a></li>
+              <li><a href="photo.html">Фото и видео</a></li>
+              <li><a class="main-header-logo" href="index.html">
+                <img src="img/logo-sedona.svg" width="140" height="70" alt="Логотип города Седона"></a>
+              </li>
+              <li><a href="map-state.html">Карта штата</a></li>
+              <li><a href="inner.html">Гостиницы</a></li>
+            </ul>
+          </div>
         </nav>
       </header>
 
@@ -25,6 +29,7 @@
         <h1 class="visually-hidden">Седона</h1>
         <section class="banner">
           <img src="img/intro-welcome.svg" width="460" height="346" alt="Баннер Добро пожаловать в Седону">
+          <div class="mack"></div>
         </section>
 
         <section class="subtitle">
@@ -96,10 +101,10 @@
 
         <section class="search">
           <span class="search-item">Заинтересовались?</span>
-          <p>Укажите предполагаемые даты поездки,<br>и мы покажем лучшие предложения гостинец в седоне</p>
+          <p class="item-data">Укажите предполагаемые даты поездки,<br>и мы покажем лучшие предложения гостинец в седоне</p>
           <a class="search-button" href="#">Поиск гостиницы в седоне</a>
           <section class="form">
-            <form class="form-search" action="https://echo.htmlacademy.ru" method="post">
+            <form class="form-booking" action="https://echo.htmlacademy.ru" method="post">
               <p>
                 <label class="form-arrival">Дата заезда:
                   <input type="text" class="arrival" name="arrival" value="24 апреля 2017">
