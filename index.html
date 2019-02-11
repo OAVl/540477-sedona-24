@@ -12,12 +12,14 @@
       <header class="main-header">
         <nav class="main-navigation">
           <div class="container">
-            <ul class="site-navigation">
+            <ul class="site-navigation-one">
               <li><a href="information.html">Информация</a></li>
               <li><a href="photo.html">Фото и видео</a></li>
-              <li><a class="main-header-logo" href="index.html">
-                <img src="img/logo-sedona.svg" width="140" height="70" alt="Логотип города Седона"></a>
-              </li>
+            </ul>
+            <a class="main-header-logo" href="index.html">
+              <img src="img/logo-sedona.svg" width="140" height="70" alt="Логотип города Седона">
+            </a>
+            <ul class="site-navigation-two">
               <li><a href="map-state.html">Карта штата</a></li>
               <li><a href="inner.html">Гостиницы</a></li>
             </ul>
@@ -26,10 +28,9 @@
       </header>
 
       <main>
-        <h1 class="visually-hidden">Седона</h1>
         <section class="banner">
+          <h1 class="visually-hidden">Седона</h1>
           <img src="img/intro-welcome.svg" width="460" height="346" alt="Баннер Добро пожаловать в Седону">
-          <div class="mack"></div>
         </section>
 
         <section class="subtitle">
@@ -51,7 +52,7 @@
         <section class="offers">
           <ul class="offers-list">
             <li class="offers-item">
-              <img src="img/icon-1.svg" width="76" height="74" alt="Жилье">
+              <img src="img/icon-1.svg" width="76" height="74" alt="Жильё">
               <h2>Жилье</h2>
               <p>Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
             </li>
@@ -100,36 +101,34 @@
         </section>
 
         <section class="search">
+          <h2 class="visually-hidden">Поиск</h2>
           <span class="search-item">Заинтересовались?</span>
           <p class="item-data">Укажите предполагаемые даты поездки,<br>и мы покажем лучшие предложения гостинец в седоне</p>
           <a class="search-button" href="#">Поиск гостиницы в седоне</a>
           <section class="form">
+            <h2 class="visually-hidden">Поиск гостиницы</h2>
             <form class="form-booking" action="https://echo.htmlacademy.ru" method="post">
               <p>
-                <label class="form-arrival">Дата заезда:
-                  <input type="text" class="arrival" name="arrival" value="24 апреля 2017">
-                </label>
+                <label for="arrival">Дата заезда:</label>
+                  <input type="text" class="arrival" id="arrival" value="24 апреля 2017">
                 <button class="form-calendar" type="button"></button>
               </p>
               <p>
-                <label class="form-departure">Дата выезда:
-                  <input type="text" class="departure" name="departure" value="4 июля 2017">
-                </label>
+                <label for="departure">Дата выезда:</label>
+                  <input type="text" class="departure" id="departure" value="4 июля 2017">
                 <button class="form-calendar" type="button"></button>
               </p>
               <p>
-                <label class="form-adults">Взрослые:
+                <label for="adults">Взрослые:</label>
                   <button class="form-minus" type="button"></button>
-                  <input type="text" class="adults" name="adults" value="2">
+                  <input type="text" class="adults" id="adults" value="2">
                   <button class="form-plus" type="button"></button>
-                </label>
               </p>
               <p>
-                <label class="form-children">Дети:
+                <label for="children">Дети:</label>
                   <button class="form-minus" type="button"></button>
-                  <input type="text" class="children" name="children" value="0">
+                  <input type="text" class="children" id="children" value="0">
                   <button class="form-plus" type="button"></button>
-                </label>
               </p>
               <p>
                 <button class="button" type="submit">Найти</button>
@@ -139,6 +138,7 @@
         </section>
 
         <section class="map">
+          <h2 class="visually-hidden">Карта</h2>
           <img src="img/map.png" width="1200" height="473" alt="Карта">
         </section>
       </main>

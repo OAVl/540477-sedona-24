@@ -24,7 +24,8 @@ a {
   background-color: #ffffff;
 }
 
-.site-navigation {
+.site-navigation-one,
+.site-navigation-two {
   list-style: none;
 }
 
@@ -71,6 +72,13 @@ a {
 
 .offers-list li {
   list-style: none;
+}
+
+.offers-item p,
+.feature-text p,
+.reasons-list p {
+  font-size: 14px;
+  line-height: 21px;
 }
 
 .reasons li {
@@ -350,17 +358,25 @@ a {
 html,
 body {
   min-width: 1280px;
-  min-height: 2762px;
 }
 
-.site-navigation {
+.site-navigation-one,
+.site-navigation-two {
   display: flex;
   align-items: center;
-  height: 50px;
+  height: 25px;
 }
 
-.site-navigation li {
-  width: 250px;
+.site-navigation-one li {
+  width: 200px;
+}
+
+.site-navigation-two li {
+  width: 210px;
+}
+
+.main-header-logo {
+  width: 200px;
 }
 
 .container {
@@ -372,6 +388,7 @@ body {
 .main-navigation .container {
   display: flex;
   justify-content: space-around;
+  height: 55px;
 }
 
 .banner {
@@ -413,7 +430,6 @@ body {
 
 .catalog-item-left {
   display: flex;
-
   justify-content: space-between;
   width: 426px;
   padding-left: 73px;
@@ -427,4 +443,106 @@ body {
 
 .catalog-item-info {
   width: 260px;
+}
+
+.feature {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.feature-text {
+  text-align: center;
+  width: 400px;
+  padding-top: 50px;
+  padding-left: 58px;
+  padding-right: 58px;
+}
+
+.feature-image {
+  width: 800px;
+}
+
+.offers-list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.offers-item {
+  width: 400px;
+  text-align: center;
+  padding-top: 60px;
+  padding-left: 71px;
+  padding-right: 71px;
+  padding-bottom: 85px;
+}
+
+.reasons-list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.reasons-item {
+  width: 400px;
+  text-align: center;
+  padding-top: 45px;
+  padding-left: 94px;
+  padding-right: 95px;
+  padding-bottom: 64px;
+}
+
+.form-search {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.form-list-info {
+  width: 313px;
+}
+
+.form-list-type {
+  width: 280px;
+}
+
+.form-cost {
+  width: 400px;
+}
+
+.sorting {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.sorting-search {
+  width: 188px;
+  padding-left: 73px;
+  padding-top: 14px;
+}
+
+.sorting-sections {
+  display: flex;
+}
+
+.sorting-title {
+  padding-left: 50px;
+  padding-top: 39px;
+}
+
+.sorting-list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.sorting-item {
+  width: 88px;
+  padding-top: 35px;
+}
+
+.price {
+  padding-left: 37px;
 }
