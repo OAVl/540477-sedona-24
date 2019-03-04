@@ -5,7 +5,7 @@
     <title>HTML Academy: Седона</title>
     <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
     <link href="css/normalize.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/style.minify.css" rel="stylesheet">
   </head>
   <body>
     <div class="container">
@@ -26,11 +26,11 @@
       <main>
         <section class="banner">
           <h1 class="visually-hidden">Седона</h1>
-          <img src="img/intro-welcome.svg" width="460" height="346" alt="Баннер Добро пожаловать в Седону">
+          <img src="img/intro-welcome.svg" width="461" height="355" alt="Баннер Добро пожаловать в Седону">
         </section>
 
         <section class="subtitle">
-          <h2>Седона - небольшой городок в аризоне, заслуживающий большего!</h2>
+          <h2>Седона — небольшой городок в аризоне, заслуживающий большего!</h2>
           <p>Рассмотрим 5 причин, по которым седона круче, чем гранд каньон!</p>
         </section>
 
@@ -38,7 +38,7 @@
           <div class="feature-text">
             <h2 class="feature-text-city">Настоящий городок</h2>
             <span>— №1 —</span>
-            <p>Седона - не аттракцион для туристов, там течёт своя жизнь</p>
+            <p>Седона — не аттракцион для туристов, там течёт своя жизнь</p>
           </div>
           <div class="feature-image">
             <img src="img/index-pic1.jpg" width="800" height="256" alt="Настоящий городок">
@@ -49,7 +49,7 @@
           <ul class="offers-list">
             <li class="offers-item">
               <img src="img/icon-1.svg" width="76" height="74" alt="Жильё">
-              <h2>Жилье</h2>
+              <h2>Жильё</h2>
               <p>Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
             </li>
             <li class="offers-item">
@@ -69,7 +69,7 @@
           <div class="feature-image">
             <img src="img/index-pic2.jpg" width="800" height="256" alt="Мост дьявола">
           </div>
-          <div class="feature-text">
+          <div class="feature-text block-text">
             <h2>Там есть<br>мост дьявола</h2>
             <span>— №2 —</span>
             <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
@@ -99,54 +99,56 @@
         <section class="search">
           <h2 class="visually-hidden">Поиск</h2>
           <span class="search-item">Заинтересовались?</span>
-          <p class="item-data">Укажите предполагаемые даты поездки,<br>и мы покажем лучшие предложения гостинец в седоне</p>
+          <p class="item-data">Укажите предполагаемые даты поездки,<br>и мы покажем вам лучшие предложения гостиниц в седоне</p>
           <a class="search-button" href="#">Поиск гостиницы в седоне</a>
           <section class="form">
             <h2 class="visually-hidden">Поиск гостиницы</h2>
             <form class="form-booking" action="https://echo.htmlacademy.ru" method="post">
-              <div class="form-data">
-                <p>
-                  <label for="arrival">Дата заезда:</label>
-                  <input type="text" class="arrival" id="arrival" value="24 апреля 2017">
-                  <button class="form-calendar calendar-arrival" type="button">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="21" height="22" viewBox="0 0 21 22">
-                      <path d="M19.251 2.025h-2.845V.648c0-.381-.294-.689-.656-.689-.363 0-.656.308-.656.689v1.377h-3.938V.648c0-.381-.294-.689-.655-.689-.363 0-.657.308-.657.689v1.377H5.906V.648c0-.381-.294-.689-.656-.689-.363 0-.657.308-.657.689v1.377H1.75C.784 2.025 0 2.847 0 3.862v16.302C0 21.179.784 22 1.75 22h17.501c.966 0 1.749-.821 1.749-1.836V3.862c0-1.015-.783-1.837-1.749-1.837zm.437 18.139a.448.448 0 0 1-.437.459H1.75a.45.45 0 0 1-.438-.459V3.862a.45.45 0 0 1 .438-.459h2.844v1.378c0 .381.294.689.657.689.362 0 .656-.308.656-.689V3.403h3.938v1.378c0 .381.294.689.657.689.361 0 .655-.308.655-.689V3.403h3.938v1.378c0 .381.293.689.656.689.362 0 .656-.308.656-.689V3.403h2.845c.241 0 .437.206.437.459v16.302z"/>
-                      <path d="M4.594 8.225h2.625v2.066H4.594zM4.594 11.668h2.625v2.067H4.594zM4.594 15.112h2.625v2.066H4.594zM9.188 15.112h2.625v2.066H9.188zM9.188 11.668h2.625v2.067H9.188zM9.188 8.225h2.625v2.066H9.188zM13.781 15.112h2.625v2.066h-2.625zM13.781 11.668h2.625v2.067h-2.625zM13.781 8.225h2.625v2.066h-2.625z"/>
-                    </svg>
-                  </button>
-                </p>
-                <p>
-                  <label for="departure">Дата выезда:</label>
-                  <input type="text" class="departure" id="departure" value="4 июля 2017">
-                  <button class="form-calendar calendar-departure" type="button">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="21" height="22" viewBox="0 0 21 22">
-                      <path d="M19.251 2.025h-2.845V.648c0-.381-.294-.689-.656-.689-.363 0-.656.308-.656.689v1.377h-3.938V.648c0-.381-.294-.689-.655-.689-.363 0-.657.308-.657.689v1.377H5.906V.648c0-.381-.294-.689-.656-.689-.363 0-.657.308-.657.689v1.377H1.75C.784 2.025 0 2.847 0 3.862v16.302C0 21.179.784 22 1.75 22h17.501c.966 0 1.749-.821 1.749-1.836V3.862c0-1.015-.783-1.837-1.749-1.837zm.437 18.139a.448.448 0 0 1-.437.459H1.75a.45.45 0 0 1-.438-.459V3.862a.45.45 0 0 1 .438-.459h2.844v1.378c0 .381.294.689.657.689.362 0 .656-.308.656-.689V3.403h3.938v1.378c0 .381.294.689.657.689.361 0 .655-.308.655-.689V3.403h3.938v1.378c0 .381.293.689.656.689.362 0 .656-.308.656-.689V3.403h2.845c.241 0 .437.206.437.459v16.302z"/>
-                      <path d="M4.594 8.225h2.625v2.066H4.594zM4.594 11.668h2.625v2.067H4.594zM4.594 15.112h2.625v2.066H4.594zM9.188 15.112h2.625v2.066H9.188zM9.188 11.668h2.625v2.067H9.188zM9.188 8.225h2.625v2.066H9.188zM13.781 15.112h2.625v2.066h-2.625zM13.781 11.668h2.625v2.067h-2.625zM13.781 8.225h2.625v2.066h-2.625z"/>
-                    </svg>
-                  </button>
-                </p>
-              </div>
-              <div class="form-quantity">
-                <label for="adults">Взрослые:</label>
-                <button class="form-minus minus-adults" type="button"></button>
-                <input type="text" class="adults" id="adults" value="2">
-                <button class="form-plus plus-adults" type="button"></button>
 
-                <label for="children">Дети:</label>
-                <button class="form-minus minus-children" type="button"></button>
-                <input type="text" class="children" id="children" value="0">
-                <button class="form-plus plus-children" type="button"></button>
+              <div class="form-control">
+                  <label for="date-in">Дата заезда:</label>
+                <div class="form-input">
+                  <input type="text" class="arrival" id="date-in" placeholder="24 апреля 2017">
+                  <button class="form-calendar" type="button"></button>
+                </div>
               </div>
-              <p>
-                <button class="button" type="submit">Найти</button>
-              </p>
+
+              <div class="form-control">
+                  <label for="date-out">Дата выезда:</label>
+                <div class="form-input">
+                  <input type="text" class="departure" id="date-out" placeholder="4 июля 2017">
+                  <button class="form-calendar" type="button"></button>
+                </div>
+              </div>
+
+              <div class="form-grid">
+                <div class="form-grid-block">
+                  <label for="adults">Взрослые:</label>
+                  <div class="form-grid-input">
+                    <button class="form-minus" type="button"></button>
+                    <input type="text" class="adults" id="adults" value="2">
+                    <button class="form-plus" type="button"></button>
+                  </div>
+                </div>
+
+                <div class="form-grid-block">
+                  <label for="children">Дети:</label>
+                  <div class="form-grid-input">
+                    <button class="form-minus" type="button"></button>
+                    <input type="text" class="children" id="children" value="0">
+                    <button class="form-plus" type="button"></button>
+                  </div>
+                </div>
+              </div>
+
+              <button class="button" type="submit">Найти</button>
             </form>
           </section>
         </section>
 
         <section class="map">
           <h2 class="visually-hidden">Карта</h2>
-          <img src="img/map.png" width="1200" height="593" alt="Карта">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d498614.7798268502!2d-111.72922284085796!3d34.81636708322317!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872da132f942b00d%3A0x5548c523fa6c8efd!2z0KHQtdC00L7QvdCwLCDQkNGA0LjQt9C-0L3QsCA4NjMzNiwg0KHQqNCQ!5e0!3m2!1sru!2sby!4v1551554060746" width="1200" height="593" frameborder="0" style="border:0" allowfullscreen></iframe>
         </section>
       </main>
 
@@ -191,15 +193,6 @@
         </p>
       </footer>
     </div>
-    <script>
-      var search = document.querySelector(".search-button");
-      var popup = document.querySelector(".form");
-
-      search.addEventListener("click", function(evt) {
-        evt.preventDefault();
-        popup.classList.toggle("form-show");
-      });
-
-    </script>
+    <script src="js/sedona.minify.js"></script>
   </body>
 </html>
