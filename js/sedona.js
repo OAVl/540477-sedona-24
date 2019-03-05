@@ -25,6 +25,7 @@ search.addEventListener("click", function(evt) {
 form.addEventListener("submit", function(evt){
   if (!arrival.value || !departure.value || !adults.value || !children.value) {
     evt.preventDefault();
+    popup.classList.add("form-error");
   } else {
     localStorage.getItem("login", arrival.value);
   }
